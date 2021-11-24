@@ -1,5 +1,7 @@
 package practicalL;
 
+import oops.MainClass;
+
 import java.util.*;
 
 
@@ -20,5 +22,6 @@ public class FirstClass{
 
 
     t1.method(a,b);
+
     }
 }

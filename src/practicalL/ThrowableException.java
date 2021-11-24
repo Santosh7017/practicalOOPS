@@ -1,7 +1,6 @@
-package oops;
+package practicalL;
 
-
-public class LabWrapperClass{
+public class ThrowableException {
     public static void main(String[] args){
 
     }
