@@ -11,7 +11,7 @@ try {
      c = c*d;
     System.out.println("Succesfully done");
 }catch (InputMismatchException h){
-    System.out.println("Not good format of integger");
+    System.out.println("Not good format of integer");
 }
         }
     }
