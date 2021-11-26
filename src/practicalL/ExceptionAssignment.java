@@ -10,6 +10,7 @@ public class ExceptionAssignment {
             for (int i = 0;i<n;i++){
                 ar[i] = sc.nextInt();
             }
+            System.out.println(ar[pos]);
 
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Inedex enter the correct position of the array" + e);
