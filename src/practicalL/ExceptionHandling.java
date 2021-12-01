@@ -3,6 +3,7 @@ import java.lang.Exception;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.Scanner;
 public class ExceptionHandling {
     public static void main(String[] args){
         int c = 0;
