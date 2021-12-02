@@ -23,7 +23,7 @@ class Abc<T> {
 
     public void pattern() {
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 1; i < 10; i++) {
                     for(int j = 0;j<i;j++){
                         System.out.print(getT()+" ");
                     }
@@ -41,6 +41,9 @@ class Abc<T> {
             Abc<Integer> obj1 = new <Integer>Abc();
             Abc<String> obj2 = new <String>Abc();
             obj1.setT(123);
+            obj2.setT("Santosh");
+            obj2.pattern();
+            System.out.println("");
             obj1.pattern();
 
 
