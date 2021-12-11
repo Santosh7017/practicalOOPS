@@ -6,6 +6,7 @@ import java.sql.Statement;
 
 public class DemoJDBC {
     public static void main(String args[]) {
+
         try {
 //            String url="jdbc:odbc:mydsn";
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -22,6 +23,5 @@ public class DemoJDBC {
             System.out.println(e);
             e.printStackTrace();
                     }
-
     }
 }
