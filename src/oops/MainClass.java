@@ -1,4 +1,5 @@
 package oops;
+
 //class Hello{
 //
 //}
@@ -10,7 +11,6 @@ public class MainClass {
     protected class exp{
         exp() {
             System.out.println("hello world");
-
         }
         int sumOf(int a, int b) {
             int sum = 0;
@@ -19,7 +19,5 @@ public class MainClass {
         }
 
     }
-    public static void main(String[] args){
 
-    }
 }
