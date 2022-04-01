@@ -61,6 +61,5 @@ public class BinaryTree {
         BinaryTree binary = new BinaryTree();
       binary.createBinary();
       binary.preOrder(binary.root);
-
     }
 }
